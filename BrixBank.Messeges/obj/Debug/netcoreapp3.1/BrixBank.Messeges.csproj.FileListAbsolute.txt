@@ -1,0 +1,12 @@
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\bin\Debug\netcoreapp3.1\BrixBank.Messeges.deps.json
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\bin\Debug\netcoreapp3.1\BrixBank.Messeges.dll
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\obj\Debug\netcoreapp3.1\BrixBank.Messeges.csprojAssemblyReference.cache
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\obj\Debug\netcoreapp3.1\BrixBank.Messeges.AssemblyInfoInputs.cache
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\obj\Debug\netcoreapp3.1\BrixBank.Messeges.AssemblyInfo.cs
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\bin\Debug\netcoreapp3.1\BrixBank.Messeges.pdb
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\obj\Debug\netcoreapp3.1\BrixBank.Messeges.dll
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\obj\Debug\netcoreapp3.1\BrixBank.Messeges.pdb
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\bin\Debug\netcoreapp3.1\BrixBank.Messeges.runtimeconfig.json
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\bin\Debug\netcoreapp3.1\BrixBank.Messeges.runtimeconfig.dev.json
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\obj\Debug\netcoreapp3.1\BrixBank.Messeges.csproj.CoreCompileInputs.cache
+C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Messeges\obj\Debug\netcoreapp3.1\BrixBank.Messeges.genruntimeconfig.cache

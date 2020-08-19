@@ -1,0 +1,1311 @@
+﻿2020-08-19 09:05:25.165 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 09:05:25.648 INFO  Auditing processed messages to 'audit'
+2020-08-19 09:05:25.957 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 09:05:27.234 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 09:14:43.371 INFO  Immediate Retry is going to retry message 'f8a89497-4ee5-42dc-8175-ac1c0066e025' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel)
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 6:14:33
+	Handler failure time: 19/08/2020 6:14:43
+	Message ID: f8a89497-4ee5-42dc-8175-ac1c0066e025
+2020-08-19 09:14:53.654 INFO  Immediate Retry is going to retry message 'f8a89497-4ee5-42dc-8175-ac1c0066e025' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel)
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 6:14:43
+	Handler failure time: 19/08/2020 6:14:53
+	Message ID: f8a89497-4ee5-42dc-8175-ac1c0066e025
+2020-08-19 09:14:55.172 INFO  Immediate Retry is going to retry message 'f8a89497-4ee5-42dc-8175-ac1c0066e025' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel)
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 6:14:53
+	Handler failure time: 19/08/2020 6:14:55
+	Message ID: f8a89497-4ee5-42dc-8175-ac1c0066e025
+2020-08-19 09:14:56.054 INFO  Immediate Retry is going to retry message 'f8a89497-4ee5-42dc-8175-ac1c0066e025' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel)
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 6:14:55
+	Handler failure time: 19/08/2020 6:14:56
+	Message ID: f8a89497-4ee5-42dc-8175-ac1c0066e025
+2020-08-19 09:14:57.653 INFO  Immediate Retry is going to retry message 'f8a89497-4ee5-42dc-8175-ac1c0066e025' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel)
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 6:14:56
+	Handler failure time: 19/08/2020 6:14:57
+	Message ID: f8a89497-4ee5-42dc-8175-ac1c0066e025
+2020-08-19 09:14:58.524 WARN  Delayed Retry will reschedule message 'f8a89497-4ee5-42dc-8175-ac1c0066e025' after a delay of 00:00:10 because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel)
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 6:14:57
+	Handler failure time: 19/08/2020 6:14:58
+	Message ID: f8a89497-4ee5-42dc-8175-ac1c0066e025
+2020-08-19 09:16:31.257 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 09:16:31.634 INFO  Auditing processed messages to 'audit'
+2020-08-19 09:16:31.924 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 09:16:32.899 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 09:16:40.363 INFO  Immediate Retry is going to retry message 'f8a89497-4ee5-42dc-8175-ac1c0066e025' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 199
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 203
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 203
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 155
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 6:16:33
+	Handler failure time: 19/08/2020 6:16:40
+	Message ID: f8a89497-4ee5-42dc-8175-ac1c0066e025
+2020-08-19 09:16:42.027 INFO  Immediate Retry is going to retry message 'f8a89497-4ee5-42dc-8175-ac1c0066e025' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 199
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 203
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 203
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 155
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 6:16:40
+	Handler failure time: 19/08/2020 6:16:42
+	Message ID: f8a89497-4ee5-42dc-8175-ac1c0066e025
+2020-08-19 09:16:42.880 INFO  Immediate Retry is going to retry message 'f8a89497-4ee5-42dc-8175-ac1c0066e025' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 199
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 203
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 203
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 155
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 6:16:42
+	Handler failure time: 19/08/2020 6:16:42
+	Message ID: f8a89497-4ee5-42dc-8175-ac1c0066e025
+2020-08-19 09:16:43.946 INFO  Immediate Retry is going to retry message 'f8a89497-4ee5-42dc-8175-ac1c0066e025' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 199
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 203
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 203
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 155
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 6:16:42
+	Handler failure time: 19/08/2020 6:16:43
+	Message ID: f8a89497-4ee5-42dc-8175-ac1c0066e025
+2020-08-19 09:16:47.672 INFO  Immediate Retry is going to retry message 'f8a89497-4ee5-42dc-8175-ac1c0066e025' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 199
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 203
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 203
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 155
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 6:16:43
+	Handler failure time: 19/08/2020 6:16:47
+	Message ID: f8a89497-4ee5-42dc-8175-ac1c0066e025
+2020-08-19 09:19:23.787 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 09:19:24.186 INFO  Auditing processed messages to 'audit'
+2020-08-19 09:19:24.519 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 09:19:25.623 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 09:21:03.179 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 09:21:03.605 INFO  Auditing processed messages to 'audit'
+2020-08-19 09:21:03.965 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 09:21:05.058 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 09:26:55.698 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 09:26:56.110 INFO  Auditing processed messages to 'audit'
+2020-08-19 09:26:56.442 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 09:26:57.432 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 11:26:32.001 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 11:26:32.629 INFO  Auditing processed messages to 'audit'
+2020-08-19 11:26:33.101 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 11:26:34.707 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 11:28:33.156 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 11:28:33.505 INFO  Auditing processed messages to 'audit'
+2020-08-19 11:28:33.742 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 11:28:34.753 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 11:30:43.606 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 11:30:43.963 INFO  Auditing processed messages to 'audit'
+2020-08-19 11:30:44.483 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 11:30:45.806 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 11:31:29.675 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 11:31:30.105 INFO  Auditing processed messages to 'audit'
+2020-08-19 11:31:30.490 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 11:31:31.357 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 11:49:38.829 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 11:49:39.296 INFO  Auditing processed messages to 'audit'
+2020-08-19 11:49:39.594 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 11:49:40.570 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 11:50:14.263 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 11:50:14.747 INFO  Auditing processed messages to 'audit'
+2020-08-19 11:50:15.144 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 11:50:16.057 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:04:48.201 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:04:48.624 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:04:48.930 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 12:04:50.252 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:06:09.162 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:06:09.546 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:06:09.783 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 12:06:11.127 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:07:37.023 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:07:37.464 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:07:37.741 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 12:07:38.786 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:13:08.016 WARN  'Rules Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 12:13:08.016 WARN  'Rules MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 12:13:08.033 INFO  Attempting to reconnect in 10 seconds.
+2020-08-19 12:13:08.048 WARN  The circuit breaker for 'Rules MessagePump' is now in the armed state
+2020-08-19 12:13:33.394 INFO  Reconnecting to the broker failed.
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.TimeoutException: The operation has timed out.
+   at RabbitMQ.Util.BlockingCell`1.WaitForValue(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.ConnectionStartOk(IDictionary`2 clientProperties, String mechanism, Byte[] response, String locale)
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateConnection(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at NServiceBus.Transport.RabbitMQ.ConnectionFactory.CreateConnection(String connectionName, Boolean automaticRecoveryEnabled) in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ConnectionFactory.cs:line 92
+   at NServiceBus.Transport.RabbitMQ.ConnectionFactory.CreatePublishConnection() in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ConnectionFactory.cs:line 81
+   at NServiceBus.Transport.RabbitMQ.ChannelProvider.CreateConnection() in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ChannelProvider.cs:line 23
+   at NServiceBus.Transport.RabbitMQ.ChannelProvider.Reconnect() in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ChannelProvider.cs:line 48
+2020-08-19 12:13:33.418 INFO  Attempting to reconnect in 10 seconds.
+2020-08-19 12:14:25.334 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:14:25.717 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:14:26.093 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 12:14:27.495 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:16:28.449 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:16:28.910 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:16:29.193 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 12:16:31.167 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:41:47.483 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:41:47.799 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:41:48.655 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 12:41:49.751 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:42:58.097 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:42:58.522 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:42:58.760 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 12:43:00.061 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:49:51.618 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:49:52.049 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:49:52.361 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 12:49:53.535 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:52:37.583 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:52:37.981 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:52:38.224 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 12:52:39.338 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:56:59.445 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:56:59.842 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:57:00.181 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 12:57:01.397 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 13:35:51.707 WARN  'Rules Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 13:35:51.707 WARN  'Rules MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 13:35:51.726 INFO  Attempting to reconnect in 10 seconds.
+2020-08-19 13:35:51.758 WARN  The circuit breaker for 'Rules MessagePump' is now in the armed state
+2020-08-19 13:36:39.331 INFO  Connection to the broker reestablished successfully.
+2020-08-19 13:36:39.367 INFO  The circuit breaker for 'Rules MessagePump' is now disarmed
+2020-08-19 13:39:54.654 WARN  'Rules MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 13:39:54.655 WARN  'Rules Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 13:39:54.688 WARN  The circuit breaker for 'Rules MessagePump' is now in the armed state
+2020-08-19 13:39:54.710 INFO  Attempting to reconnect in 10 seconds.
+2020-08-19 13:42:06.909 WARN  The circuit breaker for 'Rules MessagePump' will now be triggered
+2020-08-19 13:42:06.918 INFO  Connection to the broker reestablished successfully.
+2020-08-19 13:42:06.930 FATAL 'Rules MessagePump' connection to the broker has failed.
+System.Exception: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 13:42:06.934 INFO  The circuit breaker for 'Rules MessagePump' is now disarmed
+2020-08-19 14:13:39.790 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:13:40.454 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:13:40.861 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 14:13:42.042 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:21:13.773 WARN  'Rules MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 14:21:13.773 WARN  'Rules Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 14:21:14.573 INFO  Attempting to reconnect in 10 seconds.
+2020-08-19 14:21:14.628 WARN  The circuit breaker for 'Rules MessagePump' is now in the armed state
+2020-08-19 14:34:37.911 WARN  The circuit breaker for 'Rules MessagePump' will now be triggered
+2020-08-19 14:34:37.972 FATAL 'Rules MessagePump' connection to the broker has failed.
+System.Exception: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 14:34:38.179 INFO  Connection to the broker reestablished successfully.
+2020-08-19 14:34:38.448 INFO  The circuit breaker for 'Rules MessagePump' is now disarmed
+2020-08-19 14:52:32.516 WARN  'Rules MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 14:52:32.515 WARN  'Rules Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-19 14:52:32.579 WARN  The circuit breaker for 'Rules MessagePump' is now in the armed state
+2020-08-19 14:52:32.665 INFO  Attempting to reconnect in 10 seconds.
+2020-08-19 14:53:38.857 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:53:39.452 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:53:39.858 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 14:53:41.142 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:54:57.619 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:54:58.426 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:54:58.968 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 14:55:01.504 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:56:09.189 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:56:09.904 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:56:10.415 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 14:56:12.076 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:56:53.657 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:56:54.422 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:56:55.173 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 14:56:57.171 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:57:44.102 INFO  Immediate Retry is going to retry message '698a72ac-1cf2-4488-bddc-ac1c00c509ff' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:57:24
+	Handler failure time: 19/08/2020 11:57:44
+	Message ID: 698a72ac-1cf2-4488-bddc-ac1c00c509ff
+2020-08-19 14:57:47.396 INFO  Immediate Retry is going to retry message '698a72ac-1cf2-4488-bddc-ac1c00c509ff' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:57:44
+	Handler failure time: 19/08/2020 11:57:47
+	Message ID: 698a72ac-1cf2-4488-bddc-ac1c00c509ff
+2020-08-19 14:57:50.415 INFO  Immediate Retry is going to retry message '698a72ac-1cf2-4488-bddc-ac1c00c509ff' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:57:47
+	Handler failure time: 19/08/2020 11:57:50
+	Message ID: 698a72ac-1cf2-4488-bddc-ac1c00c509ff
+2020-08-19 14:57:53.860 INFO  Immediate Retry is going to retry message '698a72ac-1cf2-4488-bddc-ac1c00c509ff' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:57:50
+	Handler failure time: 19/08/2020 11:57:53
+	Message ID: 698a72ac-1cf2-4488-bddc-ac1c00c509ff
+2020-08-19 14:57:57.249 INFO  Immediate Retry is going to retry message '698a72ac-1cf2-4488-bddc-ac1c00c509ff' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:57:53
+	Handler failure time: 19/08/2020 11:57:57
+	Message ID: 698a72ac-1cf2-4488-bddc-ac1c00c509ff
+2020-08-19 14:58:01.824 WARN  Delayed Retry will reschedule message '698a72ac-1cf2-4488-bddc-ac1c00c509ff' after a delay of 00:00:10 because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:57:57
+	Handler failure time: 19/08/2020 11:58:01
+	Message ID: 698a72ac-1cf2-4488-bddc-ac1c00c509ff
+2020-08-19 14:58:38.463 INFO  Immediate Retry is going to retry message '698a72ac-1cf2-4488-bddc-ac1c00c509ff' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:58:15
+	Handler failure time: 19/08/2020 11:58:38
+	Message ID: 698a72ac-1cf2-4488-bddc-ac1c00c509ff
+2020-08-19 14:59:46.337 INFO  Immediate Retry is going to retry message 'd841d34a-4d55-41a7-b9a8-ac1c00c55fe1' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:58:38
+	Handler failure time: 19/08/2020 11:59:46
+	Message ID: d841d34a-4d55-41a7-b9a8-ac1c00c55fe1
+2020-08-19 14:59:50.466 INFO  Immediate Retry is going to retry message '698a72ac-1cf2-4488-bddc-ac1c00c509ff' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:58:40
+	Handler failure time: 19/08/2020 11:59:50
+	Message ID: 698a72ac-1cf2-4488-bddc-ac1c00c509ff
+2020-08-19 14:59:51.470 INFO  Immediate Retry is going to retry message 'd841d34a-4d55-41a7-b9a8-ac1c00c55fe1' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:59:47
+	Handler failure time: 19/08/2020 11:59:51
+	Message ID: d841d34a-4d55-41a7-b9a8-ac1c00c55fe1
+2020-08-19 14:59:55.821 INFO  Immediate Retry is going to retry message '698a72ac-1cf2-4488-bddc-ac1c00c509ff' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:59:51
+	Handler failure time: 19/08/2020 11:59:55
+	Message ID: 698a72ac-1cf2-4488-bddc-ac1c00c509ff
+2020-08-19 14:59:57.262 INFO  Immediate Retry is going to retry message 'd841d34a-4d55-41a7-b9a8-ac1c00c55fe1' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 11:59:53
+	Handler failure time: 19/08/2020 11:59:57
+	Message ID: d841d34a-4d55-41a7-b9a8-ac1c00c55fe1
+2020-08-19 15:01:04.710 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 15:01:05.429 INFO  Auditing processed messages to 'audit'
+2020-08-19 15:01:05.941 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 15:01:08.151 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 15:07:47.828 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 15:07:48.843 INFO  Auditing processed messages to 'audit'
+2020-08-19 15:07:49.438 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 15:07:51.047 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 15:08:22.343 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 15:08:22.944 INFO  Auditing processed messages to 'audit'
+2020-08-19 15:08:23.566 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 15:08:25.544 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 15:08:34.239 INFO  Immediate Retry is going to retry message 'ac735933-bc2c-409f-886f-ac1c00c6f804' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:08:26
+	Handler failure time: 19/08/2020 12:08:34
+	Message ID: ac735933-bc2c-409f-886f-ac1c00c6f804
+2020-08-19 15:08:37.968 INFO  Immediate Retry is going to retry message 'ac735933-bc2c-409f-886f-ac1c00c6f804' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:08:34
+	Handler failure time: 19/08/2020 12:08:37
+	Message ID: ac735933-bc2c-409f-886f-ac1c00c6f804
+2020-08-19 15:08:42.686 INFO  Immediate Retry is going to retry message 'ac735933-bc2c-409f-886f-ac1c00c6f804' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:08:38
+	Handler failure time: 19/08/2020 12:08:42
+	Message ID: ac735933-bc2c-409f-886f-ac1c00c6f804
+2020-08-19 15:08:46.463 INFO  Immediate Retry is going to retry message 'ac735933-bc2c-409f-886f-ac1c00c6f804' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 237
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:08:42
+	Handler failure time: 19/08/2020 12:08:46
+	Message ID: ac735933-bc2c-409f-886f-ac1c00c6f804
+2020-08-19 15:08:55.473 INFO  Immediate Retry is going to retry message 'ac735933-bc2c-409f-886f-ac1c00c6f804' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel)
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:08:46
+	Handler failure time: 19/08/2020 12:08:55
+	Message ID: ac735933-bc2c-409f-886f-ac1c00c6f804
+2020-08-19 15:08:59.385 WARN  Delayed Retry will reschedule message 'ac735933-bc2c-409f-886f-ac1c00c6f804' after a delay of 00:00:10 because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Manager(LoanRequestModel loanRequestModel)
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 27
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:08:55
+	Handler failure time: 19/08/2020 12:08:59
+	Message ID: ac735933-bc2c-409f-886f-ac1c00c6f804
+2020-08-19 15:09:12.089 INFO  Immediate Retry is going to retry message 'ac735933-bc2c-409f-886f-ac1c00c6f804' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel)
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 25
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:09:09
+	Handler failure time: 19/08/2020 12:09:12
+	Message ID: ac735933-bc2c-409f-886f-ac1c00c6f804
+2020-08-19 15:09:13.857 INFO  Immediate Retry is going to retry message 'ac735933-bc2c-409f-886f-ac1c00c6f804' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root)
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel)
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 25
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:09:12
+	Handler failure time: 19/08/2020 12:09:13
+	Message ID: ac735933-bc2c-409f-886f-ac1c00c6f804
+2020-08-19 15:10:04.419 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 15:10:04.984 INFO  Auditing processed messages to 'audit'
+2020-08-19 15:10:05.320 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 15:10:06.591 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 15:10:36.002 INFO  Immediate Retry is going to retry message '90dd3976-f159-4065-8916-ac1c00c89e24' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 25
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:10:26
+	Handler failure time: 19/08/2020 12:10:35
+	Message ID: 90dd3976-f159-4065-8916-ac1c00c89e24
+2020-08-19 15:10:37.063 INFO  Immediate Retry is going to retry message '90dd3976-f159-4065-8916-ac1c00c89e24' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 25
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:10:36
+	Handler failure time: 19/08/2020 12:10:37
+	Message ID: 90dd3976-f159-4065-8916-ac1c00c89e24
+2020-08-19 15:10:37.982 INFO  Immediate Retry is going to retry message '90dd3976-f159-4065-8916-ac1c00c89e24' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 25
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:10:37
+	Handler failure time: 19/08/2020 12:10:37
+	Message ID: 90dd3976-f159-4065-8916-ac1c00c89e24
+2020-08-19 15:10:38.944 INFO  Immediate Retry is going to retry message '90dd3976-f159-4065-8916-ac1c00c89e24' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 25
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:10:38
+	Handler failure time: 19/08/2020 12:10:38
+	Message ID: 90dd3976-f159-4065-8916-ac1c00c89e24
+2020-08-19 15:10:40.057 INFO  Immediate Retry is going to retry message '90dd3976-f159-4065-8916-ac1c00c89e24' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 25
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:10:38
+	Handler failure time: 19/08/2020 12:10:40
+	Message ID: 90dd3976-f159-4065-8916-ac1c00c89e24
+2020-08-19 15:10:41.070 WARN  Delayed Retry will reschedule message '90dd3976-f159-4065-8916-ac1c00c89e24' after a delay of 00:00:10 because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 25
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:10:40
+	Handler failure time: 19/08/2020 12:10:41
+	Message ID: 90dd3976-f159-4065-8916-ac1c00c89e24
+2020-08-19 15:11:16.230 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 15:11:16.949 INFO  Auditing processed messages to 'audit'
+2020-08-19 15:11:17.419 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 15:11:18.944 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 15:13:18.865 INFO  Immediate Retry is going to retry message '65f805fe-0c5d-4f5b-b78e-ac1c00c9137a' because of an exception:
+System.Collections.Generic.KeyNotFoundException: The given key 'Experience=' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 212
+   at BrixBank.Data.Repositories.RuleRepository.Eval(Dictionary`2 data, RuleNode root) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 216
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 25
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 19/08/2020 12:12:06
+	Handler failure time: 19/08/2020 12:13:18
+	Message ID: 65f805fe-0c5d-4f5b-b78e-ac1c00c9137a
+2020-08-19 15:13:47.460 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 15:13:48.349 INFO  Auditing processed messages to 'audit'
+2020-08-19 15:13:48.949 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 15:13:51.011 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 15:30:57.402 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 15:30:58.083 INFO  Auditing processed messages to 'audit'
+2020-08-19 15:30:58.476 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 15:30:59.904 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 15:42:37.276 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 15:42:38.575 INFO  Auditing processed messages to 'audit'
+2020-08-19 15:42:38.957 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 15:42:40.297 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 15:55:12.963 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 15:55:13.431 INFO  Auditing processed messages to 'audit'
+2020-08-19 15:55:13.836 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 15:55:14.940 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 16:01:56.668 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 16:01:57.105 INFO  Auditing processed messages to 'audit'
+2020-08-19 16:01:57.382 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 16:01:58.383 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 16:41:24.754 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 16:42:35.782 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 16:44:42.665 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 16:44:42.975 INFO  Auditing processed messages to 'audit'
+2020-08-19 16:44:43.333 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 16:44:44.599 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 16:46:26.119 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 16:46:26.534 INFO  Auditing processed messages to 'audit'
+2020-08-19 16:46:26.758 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 16:46:27.713 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 16:47:54.916 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 16:47:55.319 INFO  Auditing processed messages to 'audit'
+2020-08-19 16:47:55.669 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 16:47:56.511 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 16:49:51.691 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 16:49:53.035 INFO  Auditing processed messages to 'audit'
+2020-08-19 16:49:53.376 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 16:49:54.806 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'

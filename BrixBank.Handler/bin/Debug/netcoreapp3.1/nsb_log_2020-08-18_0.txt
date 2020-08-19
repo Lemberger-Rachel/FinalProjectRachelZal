@@ -1,0 +1,1674 @@
+﻿2020-08-18 13:57:30.337 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 13:57:30.903 INFO  Auditing processed messages to 'audit'
+2020-08-18 13:57:31.785 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 13:57:32.925 ERROR Could not complete the installation. 
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at NServiceBus.Persistence.Sql.ScriptRunner.ExecuteInSeparateConnection[T](Func`6 installAction, String scriptDirectory, String tablePrefix, SqlDialect sqlDialect, Func`2 connectionBuilder) in /_/src/SqlPersistence/ScriptRunner.cs:line 70
+   at NServiceBus.Persistence.Sql.ScriptRunner.Install(SqlDialect sqlDialect, String tablePrefix, Func`2 connectionBuilder, String scriptDirectory, Boolean shouldInstallOutbox, Boolean shouldInstallSagas, Boolean shouldInstallSubscriptions, Boolean shouldInstallTimeouts) in /_/src/SqlPersistence/ScriptRunner.cs:line 48
+   at SqlPersistenceInstaller.Install(String identity) in /_/src/SqlPersistence/NeedToInstallSomething.cs:line 30
+2020-08-18 13:59:14.611 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 13:59:14.991 INFO  Auditing processed messages to 'audit'
+2020-08-18 13:59:15.341 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 13:59:16.426 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 14:00:27.908 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 14:00:28.284 INFO  Auditing processed messages to 'audit'
+2020-08-18 14:00:28.669 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 14:00:30.509 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 14:01:08.650 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 14:01:09.054 INFO  Auditing processed messages to 'audit'
+2020-08-18 14:01:09.405 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 14:01:10.460 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 14:03:16.632 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 14:03:17.186 INFO  Auditing processed messages to 'audit'
+2020-08-18 14:03:17.747 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 14:03:19.740 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 14:05:03.658 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 14:05:04.013 INFO  Auditing processed messages to 'audit'
+2020-08-18 14:05:04.378 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 14:05:05.589 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:39:46.487 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:39:47.165 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:39:47.427 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:39:48.281 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:40:28.678 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:40:29.238 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:40:29.591 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:40:30.824 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:40:31.481 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:31.481 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:40:31.534 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:40:31.534 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:31.557 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:40:31.571 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:31.582 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:40:31.616 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:31.634 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:40:31.657 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:31.681 WARN  Delayed Retry will reschedule message '72b72381-cbce-4859-9a56-ac1b00b6c736' after a delay of 00:00:10 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:40:31.685 WARN  Delayed Retry will reschedule message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' after a delay of 00:00:10 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:41.807 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:41.808 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:40:41.827 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:41.856 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:40:41.885 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:41.939 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:40:41.957 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:41.973 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:40:41.990 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:42.007 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:40:42.024 WARN  Delayed Retry will reschedule message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' after a delay of 00:00:20 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:40:42.037 WARN  Delayed Retry will reschedule message '72b72381-cbce-4859-9a56-ac1b00b6c736' after a delay of 00:00:20 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:02.091 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:02.104 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:02.111 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:02.170 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:02.175 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:02.187 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:02.207 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:02.246 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:02.254 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:02.268 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:02.290 WARN  Delayed Retry will reschedule message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' after a delay of 00:00:30 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:02.320 WARN  Delayed Retry will reschedule message '72b72381-cbce-4859-9a56-ac1b00b6c736' after a delay of 00:00:30 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:32.411 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:32.421 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:32.432 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:32.441 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:32.447 INFO  Immediate Retry is going to retry message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:32.460 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:32.460 ERROR Moving message '6c66d6f7-4064-4d58-88a7-ac1b00df198c' to the error queue 'error' because processing failed due to an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 6c66d6f7-4064-4d58-88a7-ac1b00df198c
+2020-08-18 18:41:32.470 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:32.483 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:32.493 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:32.504 INFO  Immediate Retry is going to retry message '72b72381-cbce-4859-9a56-ac1b00b6c736' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:32.510 ERROR Moving message '72b72381-cbce-4859-9a56-ac1b00b6c736' to the error queue 'error' because processing failed due to an exception:
+System.InvalidOperationException: No handlers could be found for message type: BrixBank.Messeges.Command.BuildTree
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message ID: 72b72381-cbce-4859-9a56-ac1b00b6c736
+2020-08-18 18:41:59.091 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:41:59.574 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:41:59.929 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:42:00.933 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:42:27.934 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:42:28.603 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:42:29.042 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:42:30.462 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:47:54.034 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:47:54.558 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:47:54.928 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:47:56.034 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:49:06.449 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:48:50
+	Handler failure time: 18/08/2020 15:49:06
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:49:32.423 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:49:33.159 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:49:33.789 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:49:35.590 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:49:46.130 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:49:36
+	Handler failure time: 18/08/2020 15:49:46
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:49:56.545 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:49:56.986 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:49:57.352 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:49:59.067 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:50:30.386 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:50:30.924 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:50:31.534 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:50:32.934 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:51:51.618 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:51:52.053 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:51:52.422 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:51:53.753 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:52:18.670 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:52:19.161 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:52:19.587 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:52:21.184 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:52:26.436 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:22
+	Handler failure time: 18/08/2020 15:52:26
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:52:27.352 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:26
+	Handler failure time: 18/08/2020 15:52:27
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:52:28.055 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:27
+	Handler failure time: 18/08/2020 15:52:28
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:52:28.802 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:28
+	Handler failure time: 18/08/2020 15:52:28
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:52:29.567 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:28
+	Handler failure time: 18/08/2020 15:52:29
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:52:30.224 WARN  Delayed Retry will reschedule message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' after a delay of 00:00:10 because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:29
+	Handler failure time: 18/08/2020 15:52:30
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:52:46.499 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:40
+	Handler failure time: 18/08/2020 15:52:46
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:52:47.950 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:46
+	Handler failure time: 18/08/2020 15:52:47
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:52:48.638 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:47
+	Handler failure time: 18/08/2020 15:52:48
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:52:49.352 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:48
+	Handler failure time: 18/08/2020 15:52:49
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:52:50.253 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:49
+	Handler failure time: 18/08/2020 15:52:50
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:52:51.854 WARN  Delayed Retry will reschedule message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' after a delay of 00:00:20 because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:52:50
+	Handler failure time: 18/08/2020 15:52:51
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:54:03.516 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:53:20
+	Handler failure time: 18/08/2020 15:54:03
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:54:04.146 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:03
+	Handler failure time: 18/08/2020 15:54:04
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:54:04.767 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:04
+	Handler failure time: 18/08/2020 15:54:04
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:54:05.576 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:04
+	Handler failure time: 18/08/2020 15:54:05
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:54:05.959 INFO  Immediate Retry is going to retry message '0b19c5a4-d35b-4070-961c-ac1b01060a42' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:05
+	Handler failure time: 18/08/2020 15:54:05
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:54:06.716 INFO  Immediate Retry is going to retry message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:05
+	Handler failure time: 18/08/2020 15:54:06
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:54:07.054 INFO  Immediate Retry is going to retry message '0b19c5a4-d35b-4070-961c-ac1b01060a42' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:06
+	Handler failure time: 18/08/2020 15:54:07
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:54:07.965 WARN  Delayed Retry will reschedule message 'f06cb249-e62e-46e5-9a6d-ac1b01049ae5' after a delay of 00:00:30 because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:07
+	Handler failure time: 18/08/2020 15:54:07
+	Message ID: f06cb249-e62e-46e5-9a6d-ac1b01049ae5
+2020-08-18 18:54:08.292 INFO  Immediate Retry is going to retry message '0b19c5a4-d35b-4070-961c-ac1b01060a42' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:07
+	Handler failure time: 18/08/2020 15:54:08
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:54:09.102 INFO  Immediate Retry is going to retry message '0b19c5a4-d35b-4070-961c-ac1b01060a42' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:08
+	Handler failure time: 18/08/2020 15:54:09
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:54:09.730 INFO  Immediate Retry is going to retry message '0b19c5a4-d35b-4070-961c-ac1b01060a42' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:09
+	Handler failure time: 18/08/2020 15:54:09
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:54:10.302 WARN  Delayed Retry will reschedule message '0b19c5a4-d35b-4070-961c-ac1b01060a42' after a delay of 00:00:10 because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:09
+	Handler failure time: 18/08/2020 15:54:10
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:54:22.817 INFO  Immediate Retry is going to retry message '0b19c5a4-d35b-4070-961c-ac1b01060a42' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:20
+	Handler failure time: 18/08/2020 15:54:22
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:54:23.396 INFO  Immediate Retry is going to retry message '0b19c5a4-d35b-4070-961c-ac1b01060a42' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:22
+	Handler failure time: 18/08/2020 15:54:23
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:54:23.964 INFO  Immediate Retry is going to retry message '0b19c5a4-d35b-4070-961c-ac1b01060a42' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:23
+	Handler failure time: 18/08/2020 15:54:23
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:54:24.623 INFO  Immediate Retry is going to retry message '0b19c5a4-d35b-4070-961c-ac1b01060a42' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:24
+	Handler failure time: 18/08/2020 15:54:24
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:54:25.156 INFO  Immediate Retry is going to retry message '0b19c5a4-d35b-4070-961c-ac1b01060a42' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:24
+	Handler failure time: 18/08/2020 15:54:25
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:54:25.790 WARN  Delayed Retry will reschedule message '0b19c5a4-d35b-4070-961c-ac1b01060a42' after a delay of 00:00:20 because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:54:25
+	Handler failure time: 18/08/2020 15:54:25
+	Message ID: 0b19c5a4-d35b-4070-961c-ac1b01060a42
+2020-08-18 18:55:18.517 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:55:19.023 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:55:19.436 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:55:21.052 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 18:57:44.699 INFO  Immediate Retry is going to retry message '9f1f0877-a81f-47dc-99a0-ac1b010709aa' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:57:42
+	Handler failure time: 18/08/2020 15:57:44
+	Message ID: 9f1f0877-a81f-47dc-99a0-ac1b010709aa
+2020-08-18 18:57:45.874 INFO  Immediate Retry is going to retry message '9f1f0877-a81f-47dc-99a0-ac1b010709aa' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:57:44
+	Handler failure time: 18/08/2020 15:57:45
+	Message ID: 9f1f0877-a81f-47dc-99a0-ac1b010709aa
+2020-08-18 18:57:46.896 INFO  Immediate Retry is going to retry message '9f1f0877-a81f-47dc-99a0-ac1b010709aa' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:57:45
+	Handler failure time: 18/08/2020 15:57:46
+	Message ID: 9f1f0877-a81f-47dc-99a0-ac1b010709aa
+2020-08-18 18:57:48.029 INFO  Immediate Retry is going to retry message '9f1f0877-a81f-47dc-99a0-ac1b010709aa' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:57:46
+	Handler failure time: 18/08/2020 15:57:48
+	Message ID: 9f1f0877-a81f-47dc-99a0-ac1b010709aa
+2020-08-18 18:57:48.816 INFO  Immediate Retry is going to retry message '9f1f0877-a81f-47dc-99a0-ac1b010709aa' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:57:48
+	Handler failure time: 18/08/2020 15:57:48
+	Message ID: 9f1f0877-a81f-47dc-99a0-ac1b010709aa
+2020-08-18 18:57:49.409 WARN  Delayed Retry will reschedule message '9f1f0877-a81f-47dc-99a0-ac1b010709aa' after a delay of 00:00:10 because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\CheckLoanHandler.cs:line 26
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 15:57:48
+	Handler failure time: 18/08/2020 15:57:49
+	Message ID: 9f1f0877-a81f-47dc-99a0-ac1b010709aa
+2020-08-18 18:58:43.016 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 18:58:43.469 INFO  Auditing processed messages to 'audit'
+2020-08-18 18:58:43.983 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 18:58:45.477 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 19:00:12.449 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 19:00:13.053 INFO  Auditing processed messages to 'audit'
+2020-08-18 19:00:13.411 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 19:00:15.474 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 19:03:20.062 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 19:03:20.548 INFO  Auditing processed messages to 'audit'
+2020-08-18 19:03:20.930 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 19:03:22.205 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 19:04:39.868 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 19:04:40.772 INFO  Auditing processed messages to 'audit'
+2020-08-18 19:04:41.254 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 19:04:43.186 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 19:06:06.056 INFO  Immediate Retry is going to retry message 'd75a4bea-0908-40d6-ab86-ac1b01091593' because of an exception:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BrixBank.Data.Repositories.RuleRepository.BuidlTree(List`1 rules) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 169
+   at BrixBank.Data.Repositories.RuleRepository.ToCheck(LoanRequestModel loanRequestModel) in C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Data\Repositories\RuleRepository.cs:line 153
+   at BrixBank.Handler.CheckLoanHandler.Handle(CheckLoan message, IMessageHandlerContext context)
+   at NServiceBus.Pipeline.MessageHandler.Invoke(Object message, IMessageHandlerContext handlerContext)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: BrixBank.Messeges.Command.CheckLoan
+	Handler type: BrixBank.Handler.CheckLoanHandler
+	Handler start time: 18/08/2020 16:05:11
+	Handler failure time: 18/08/2020 16:06:06
+	Message ID: d75a4bea-0908-40d6-ab86-ac1b01091593
+2020-08-18 19:08:14.056 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 19:08:14.482 INFO  Auditing processed messages to 'audit'
+2020-08-18 19:08:14.853 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 19:08:16.220 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-18 19:14:04.312 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-18 19:14:04.710 INFO  Auditing processed messages to 'audit'
+2020-08-18 19:14:04.984 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-18 19:14:05.874 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
