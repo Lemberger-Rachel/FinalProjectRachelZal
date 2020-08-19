@@ -20,9 +20,9 @@ namespace BrixBank.Services.Services
 
         public async void Reqest(LoanRequestModel loanRequestModel)
         {
-           var checkLoan =  _repository.Reqest(loanRequestModel);
-           var messege= _mapper.Map<CheckLoan>(checkLoan);
-           await _messageSession.Send(messege);
+            var checkLoan = _repository.Reqest(loanRequestModel);
+            var messege = _mapper.Map<CheckLoan>(checkLoan);
+            await _messageSession.Send(messege);
         }
     }
 }

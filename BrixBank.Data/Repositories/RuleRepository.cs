@@ -216,13 +216,12 @@ namespace BrixBank.Data.Repositories
         }
         public bool Manager(LoanRequestModel loanRequestModel)
         {
-            List<Rules> rulesList = new List<Rules>();
             Customer customer = _context.Customers.FirstOrDefault(c => c.CustomerId == loanRequestModel.LoanSupplied);
             var itemRule = _context.Rules.Where(item => item.CustomerId2.CustomerId == loanRequestModel.LoanSupplied).ToList();
-            var listRuleManager = _context.Rules.Where(item => item.CustomerId2.CustomerId == loanRequestModel.LoanSupplied && item.IsManager != null).ToList();
-            foreach (var itemManager in _context.Rules.Where(item => item.CustomerId2.CustomerId == loanRequestModel.LoanSupplied && item.IsManager != null))
+            var listRuleManager = itemRule.Where(item => item.IsManager != null).ToList();
+            foreach (var itemManager in listRuleManager)
             {
-                itemRule.RemoveAll(item => item.CustomerId2.CustomerId == loanRequestModel.LoanSupplied && item.Kind ==itemManager.Kind);
+                itemRule.RemoveAll(item =>item.Kind ==itemManager.Kind);
             }
             itemRule.AddRange(listRuleManager);
             RuleNode treeRule = BuidlTree(itemRule);

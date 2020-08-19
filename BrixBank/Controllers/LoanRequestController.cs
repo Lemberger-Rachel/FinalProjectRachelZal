@@ -1,9 +1,9 @@
-﻿using System;
-using AutoMapper;
+﻿using AutoMapper;
 using BrixBank.Services.Interfaces;
 using BrixBank.Services.Models;
 using BrixBank.webApi.DTO;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace BrixBank.Controllers
 {

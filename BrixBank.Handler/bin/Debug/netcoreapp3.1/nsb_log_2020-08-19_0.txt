@@ -1309,3 +1309,26 @@ License Expiration: 2020-10-25
 2020-08-19 16:49:53.376 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
 License Expiration: 2020-10-25
 2020-08-19 16:49:54.806 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 17:17:01.262 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 17:17:01.660 INFO  Auditing processed messages to 'audit'
+2020-08-19 17:17:01.922 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 17:17:02.921 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 17:22:29.155 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 17:23:06.242 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 17:23:06.663 INFO  Auditing processed messages to 'audit'
+2020-08-19 17:23:06.961 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 17:23:07.887 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 17:24:51.745 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 17:25:14.735 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 17:25:15.093 INFO  Auditing processed messages to 'audit'
+2020-08-19 17:25:15.326 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 17:25:16.607 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 17:58:11.683 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 17:58:57.794 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 17:58:58.241 INFO  Auditing processed messages to 'audit'
+2020-08-19 17:58:58.536 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-08-19 17:58:59.350 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\FinalProject\BrixBank\BrixBank.Handler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'

@@ -1,5 +1,4 @@
-﻿using BrixBank.Data.Entities;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace BrixBank.webApi.DTO
 {
